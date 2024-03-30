@@ -2,15 +2,34 @@
 // fonts
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@100;300;400;500&display=swap');
 @font-face {
-    font-family: "Disket-Bold";
-    src: url('/src/fonts/Disket-Mono-Bold.ttf');
+  font-family: 'Disket-Bold';
+  src: url('/src/fonts/Disket-Mono-Bold.ttf');
+  font-weight: bold;
 }
 @font-face {
-    font-family: "Disket-Regular";
-    src: url('/src/fonts/Disket-Mono-Regular.ttf');
+  font-family: 'Disket-Regular';
+  src: url('/src/fonts/Disket-Mono-Regular.ttf');
+  font-weight: 400;
 }
 
-.text {
-    font-family: "Disket-Bold";
-    }
-    
+
+
+// wrapper обгортка для всего сайту
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+// обгортка для контейнерів загальна
+.container {
+    max-width: 375px;
+  margin: 0 auto;
+
+    width: 100%;
+  padding: 0 16px;
+  
+}
+
+// colors
