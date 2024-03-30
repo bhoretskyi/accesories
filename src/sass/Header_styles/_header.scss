@@ -1,3 +1,48 @@
-.title {
-    font-family: 'Disket-Regular';
+.header_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid $grey;
+  border-radius: 0px 0px 8px 8px;
+  padding-top: 58px;
+  padding-bottom: 28px;
+}
+
+.header_logo {
+  margin: 0 auto;
+  font-family: 'Disket-Regular';
+  width: 200px;
+  background: $gradientBlue;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: left;
+}
+
+.header_form {
+  width: 100%;
+  margin-top: 24px;
+}
+.header_input {
+  height: 47px;
+  width: 100%;
+  padding: 14px 16px 14px 16px;
+
+  border: 1px solid rgb(246, 246, 246);
+  border-radius: 8px;
+
+  background: rgb(222, 222, 222);
+  font-family: 'Roboto';
+  font-size: $textSmall;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  ::placeholder {
+    color: $grey;
   }
+  :focus {
+    border: 1px $primaryBlack;
+    border-radius: 8px;
+  }
+}
