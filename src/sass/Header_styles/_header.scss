@@ -12,6 +12,7 @@
   margin: 0 auto;
   font-family: 'Disket-Regular';
   width: 200px;
+  height: 32px;
   background: $gradientBlue;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -24,25 +25,50 @@
   width: 100%;
   margin-top: 24px;
 }
-.header_input {
+.header_input_label {
+  display: flex;
   height: 47px;
   width: 100%;
-  padding: 14px 16px 14px 16px;
+  padding-left: 16px;
 
   border: 1px solid rgb(246, 246, 246);
   border-radius: 8px;
-
   background: rgb(222, 222, 222);
   font-family: 'Roboto';
   font-size: $textSmall;
   font-weight: 400;
   line-height: 19px;
   text-align: left;
+  &:focus {
+    border-color: $primaryBlack;
+
+  }
+  &:hover {
+    border-color: $primaryBlack;
+
+  }
+
+  
+}
+.header_input {
+  padding: 14px 16px 14px 16px;
+  border: none;
+  background-color: transparent;
+  &:hover {
+    border-color: transparent;
+    outline: none;
+  }
+  &:focus {
+    border-color: transparent;
+    outline: none;
+
+  }
+ 
+
+  
   ::placeholder {
     color: $grey;
   }
-  :focus {
-    border: 1px $primaryBlack;
-    border-radius: 8px;
-  }
+ 
 }
+

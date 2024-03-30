@@ -14,7 +14,10 @@
   src: url('/src/fonts/Disket-Mono-Regular.ttf');
   font-weight: 400;
 }
+* {
+transition: all 0.4s ease;
 
+}
 
 html,body {
   height: 100%;
