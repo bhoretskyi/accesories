@@ -27,6 +27,12 @@ html,body {
     min-width: 1440px;
   }
 }
+ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
 
 
 // wrapper обгортка для всего сайту
@@ -36,6 +42,8 @@ html,body {
   display: flex;
   flex-direction: column;
 }
+
+
 
 // обгортка для контейнерів загальна
 .container {
