@@ -6,6 +6,10 @@
   border-radius: 0px 0px 8px 8px;
   padding-top: 58px;
   padding-bottom: 28px;
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    gap:88px;
+  }
 }
 
 .header_logo {
@@ -24,6 +28,8 @@
 .header_form {
   width: 100%;
   margin-top: 24px;
+  @media screen and (min-width: 1440px) {
+margin: 0;  }
 }
 .header_input_label {
   display: flex;
