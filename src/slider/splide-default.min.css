@@ -57,15 +57,11 @@
   list-style-type: none !important;
   margin: 0;
   position: relative;
-  border-radius: 8px;
 
 }
 .splide__slide img {
   vertical-align: bottom;
-  /* width: 250px; */
-  /* width:275px;
-  height:149px; */
-  width: 100%;
+   width: 100%;
   height: auto;
   border-radius: 8px;
 }

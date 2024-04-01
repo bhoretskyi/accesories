@@ -1,17 +1,15 @@
 import Splide from '@splidejs/splide';
 
 new Splide('#slider1', {
+  type   : 'loop',
+  focus: 'center',
+
   speed: 800,
   arrows: false,
   pagination: false,
-  rewind: true,
-
   trimSpace: false,
-
   fixedWidth: 275,
   gap: 20,
-  focus: 'center',
-  perPage: 3,
 }).mount();
 
 new Splide('#slider2', {
@@ -23,5 +21,5 @@ new Splide('#slider2', {
   width: '100%',
   rewind: true,
   pagination: false,
-  // focus: 'center',
+  focus: 'center',
 }).mount();
