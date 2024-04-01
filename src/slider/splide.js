@@ -15,7 +15,7 @@ new Splide('#slider1', {
 new Splide('#slider2', {
   perPage: 1,
   perMove: 1,
-  start: 1,
+  start: 0,
 
   speed: 500,
   width: '100%',
