@@ -23,6 +23,7 @@ html,body {
   height: 100%;
   min-width: 320px;
   background-color: #F6F6F6;
+  overflow-x: scroll;
   @media screen and (min-width: 1440px) {
     min-width: 1440px;
   }

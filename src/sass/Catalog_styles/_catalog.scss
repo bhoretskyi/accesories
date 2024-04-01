@@ -1,0 +1,19 @@
+.catalog_list{
+    display: flex;
+    height: 60px;
+    gap: 16px;
+    flex-wrap: wrap;
+
+}
+
+.catalog_item{
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog_item_block{
+    height: 211px;
+    width: 200px;
+    background-color: #BCC5FF;
+    border-radius: 8px;
+}
