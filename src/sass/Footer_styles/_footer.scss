@@ -1,0 +1,33 @@
+.footer_nav_list {
+    display: flex;
+    gap:32px;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    padding: 20px 30px;
+    background-color: $primaryWhite; 
+    border-top: 1px solid $grey;
+    @media screen and (min-width: 1440px) {
+        display: none;
+      }
+}
+.footer_nav_list_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.footer_nav_list_item {
+    /* h3/14 light auto */
+    color: rgb(69, 69, 69);
+    font-family: 'Roboto';
+    font-size: $textExtraSmall;
+    font-weight: 300;
+    line-height: 16px;
+}
