@@ -1,46 +1,65 @@
 .container_title{
-    margin: 0 auto;
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 37.5px;
-    color: #0C0C0C;
+    @media screen and (min-width: 1440px) {
+            margin: 0 auto;
+                font-family: Roboto;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 37.5px;
+                color: #0C0C0C;
+        }
+    
 }
 
 .catalog_list{
-    margin-top: 28px;
-    margin-bottom: 40px;
     display: flex;
-   // height: 60px;
-    gap: 16px;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 21px;
+        margin-bottom: 100px;
+    @media screen and (min-width: 1440px) {
+        margin-top: 28px;
+            margin-bottom: 40px;
+            display: flex;
+            // height: 60px;
+            gap: 16px;
+            flex-wrap: wrap;
+    }
+    
 
 }
 
 .catalog_item{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
+    
+    @media screen and (min-width: 1440px) {
+        display: flex;
+            flex-direction: column;
+            width: 200px;
+    }
+    
 }
 
 .catalog_item_block{
-    //@function: center;
-    padding-top: 15.5px;
-    padding-bottom: 15.5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    //align-items: center;
-    height: 211px;
-    width: 200px;
+   padding: 4px;
+    width: 98px;
+    height: 98px;
     background-color: #BCC5FF;
-    border-radius: 8px;
+        border-radius: 8px;
+    @media screen and (min-width: 1440px) {
+        height: 200px;
+            width: 200px;
+            
+    }
+    
 }
 
 .catalog_block_img{
+    width: 90px;
+    height: 90px;
+    @media screen and (min-width:1440px) {
+        width: 200px;
+        height: 200px;
+    }
+    //margin: 0 auto;
     
-    margin: 0 auto;
-    width: 180px;
-    height: 180px;
 }
 
 .catalog_item_link{
@@ -48,9 +67,19 @@
 }
 
 .catalog_item_text{
+    margin-top: 4px;
     font-family: Roboto;
-    font-weight: 300;
-    size: 20px;
-    line-height: 23.44px;
-    color: #000000;
+        font-size: 8px;
+        font-weight: 300;
+        max-width: 98px;
+        //line-height: 19px;
+        text-align: left;
+    @media screen and (min-width:1440px) {
+        margin-top: 12px;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            line-height: 23px;
+           
+    }
+    
 }
