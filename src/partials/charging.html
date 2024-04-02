@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accesories</title>
+    <link rel="stylesheet" href="../sass/index.scss" />
+    <link rel="stylesheet" href="/src/slider/splide-default.min.css" />
+    <script type="module" src="../index.js"></script>
+    <script type="module" src="/src/slider/splide.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header_wrapper">
+        <include src="./partials/header.html"></include>
+      </div>
+      <include src="./partials/advertising.html"></include>
+      <!-- <include src="./partials/models.html"></incude> -->
+      <section class="container">
+        <h2 class="container_title">Категорії</h2>
+
+        <ul class="catalog_list">
+          <li class="catalog_item">
+            <a href="/src/partials/smartfons.html" class="catalog_item_link"
+              ><div class="catalog_item_block">
+                <img
+                  src="/src/images/jpg/Безпровідні_зарядні_пристрої.png"
+                  alt=""
+                  class="catalog_block_img"
+                />
+              </div>
+              <p class="catalog_item_text">Бездротові зарядні пристрої</p></a
+            >
+          </li>
+          <li class="catalog_item">
+            <a href="" class="catalog_item_link"
+              ><div class="catalog_item_block">
+                <img
+                  src="/src/images/jpg/Мережеві_зарядні_пристрої.png"
+                  alt="#"
+                  class="catalog_block_img"
+                />
+              </div>
+              <p class="catalog_item_text">Мережевий зарядний пристрій</p></a
+            >
+          </li>
+          <li class="catalog_item">
+            <a href="" class="catalog_item_link"
+              ><div class="catalog_item_block">
+                <img
+                  src="/src/images/jpg/авто-заряд-пристрій.png"
+                  alt="#"
+                  class="catalog_block_img"
+                />
+              </div>
+              <p class="catalog_item_text">
+                Автомобільний зарядний пристрій
+              </p></a
+            >
+          </li>
+          <li class="catalog_item">
+            <a href="" class="catalog_item_link"
+              ><div class="catalog_item_block">
+                <img
+                  src="/src/images/jpg/Зарядки_для_ноутбуків.png"
+                  alt="#"
+                  class="catalog_block_img"
+                />
+              </div>
+              <p class="catalog_item_text">Зарядний пристрій до ноутбука</p></a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <include src="./partials/footer.html"></include>
+    </div>
+  </body>
+</html>
