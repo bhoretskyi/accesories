@@ -1,5 +1,5 @@
-import Splide from '@splidejs/splide'; 
- 
+import Splide from '@splidejs/splide';
+
 new Splide('#slider1', {
   type: 'loop',
   focus: 'center',
@@ -7,7 +7,7 @@ new Splide('#slider1', {
   speed: 800,
   arrows: false,
   pagination: false,
-  trimSpace: false,
+  trimSpace: false, 
   fixedWidth: 275,
   gap: 20,
 }).mount();
@@ -26,6 +26,14 @@ new Splide('#slider2', {
 
 new Splide('#slider3', {
   pagination: false,
-  perPage: 2,
-  gap: 32,
+  perPage: 5,
+  gap: 20,
+  breakpoints: {
+    1439: {
+      perPage: 2,
+      gap: 32,
+
+    },
+   
+  },
 }).mount();

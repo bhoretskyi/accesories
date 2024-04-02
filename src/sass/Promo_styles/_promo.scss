@@ -6,6 +6,28 @@
   height: 395px;
   display: flex;
   flex-direction: column;
+  @media screen and (min-width: 1440px) {
+    width: 217px;
+  height: 531px;
+  }
+}
+
+.promo_card_info {
+/* h2/regular 16 */
+color: $primaryBlack;
+font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+@media screen and (min-width: 1440px) {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+
+
+
 }
 .promo_card_price {
   display: flex;
@@ -15,6 +37,16 @@
 }
 .price {
   margin: 0;
+color: $primaryBlack;
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 500;
+line-height: 21px;
+@media screen and (min-width: 1440px) {
+    font-size: 20px;
+    line-height: 23px;
+
+  }
 }
 .promo_card_status {
   display: flex;
@@ -26,6 +58,16 @@
   font-size: $textExtraSmall;
   font-weight: 300;
   line-height: 16px;
+
+
+
+  @media screen and (min-width: 1440px) {
+    font-size: 14px;
+line-height: 16px;
+
+  }
+  
+
 }
 .promo_card_button {
   width: 131px;
@@ -42,12 +84,20 @@
 
   background: $primaryBlue;
 
-  /* h3/14 medium */
 color: $primaryWhite;
 font-family: 'Roboto';
 font-size: $textExtraSmall;
 font-weight: 500;
 line-height: 16px;
+
+@media screen and (min-width: 1440px) {
+   width: 164px;
+   height: 44px;
+   padding: 10px 16px 10px 16px;
+
+  }
+
+
 }
 .button_wrapper {
   display: flex;
