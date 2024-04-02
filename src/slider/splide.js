@@ -1,5 +1,5 @@
-import Splide from '@splidejs/splide';
-
+import Splide from '@splidejs/splide'; 
+ 
 new Splide('#slider1', {
   type: 'loop',
   focus: 'center',

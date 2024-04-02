@@ -6,7 +6,6 @@
   height: 395px;
   display: flex;
   flex-direction: column;
-  // gap: 16px;
 }
 .promo_card_price {
   display: flex;
@@ -53,4 +52,16 @@ line-height: 16px;
 .button_wrapper {
   display: flex;
   justify-content: center;
+}
+.promo_logo_wrapper {
+padding-bottom: 28px;
+    border-bottom: 1px solid $grey;
+    margin-bottom: 20px;
+}
+.promo_logo {
+color: $primaryBlack;
+font-family: 'Roboto';
+font-size: 20px;
+font-weight: 500;
+line-height: 23px;
 }
