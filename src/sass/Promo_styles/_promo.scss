@@ -1,0 +1,56 @@
+.promo_container {
+  padding-bottom: 102px;
+}
+.promo_card {
+  width: 144px;
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  // gap: 16px;
+}
+.promo_card_price {
+  display: flex;
+  justify-content: baseline;
+  gap: 16px;
+  align-items: center;
+}
+.price {
+  margin: 0;
+}
+.promo_card_status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: rgb(22, 155, 0);
+  font-family: 'Roboto';
+  font-size: $textExtraSmall;
+  font-weight: 300;
+  line-height: 16px;
+}
+.promo_card_button {
+  width: 131px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 17px 10px 17px;
+  position: absolute;
+
+  margin: 0 auto;
+  border-radius: 8px;
+  bottom: 0;
+
+  background: $primaryBlue;
+
+  /* h3/14 medium */
+color: $primaryWhite;
+font-family: 'Roboto';
+font-size: $textExtraSmall;
+font-weight: 500;
+line-height: 16px;
+}
+.button_wrapper {
+  display: flex;
+  justify-content: center;
+}
