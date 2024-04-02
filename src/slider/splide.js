@@ -1,7 +1,7 @@
 import Splide from '@splidejs/splide';
 
 new Splide('#slider1', {
-  type   : 'loop',
+  type: 'loop',
   focus: 'center',
 
   speed: 800,
@@ -22,4 +22,10 @@ new Splide('#slider2', {
   rewind: true,
   pagination: false,
   focus: 'center',
+}).mount();
+
+new Splide('#slider3', {
+  pagination: false,
+  perPage: 2,
+  gap: 32,
 }).mount();
