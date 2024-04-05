@@ -3,7 +3,6 @@
   position: relative;
 }
 .splide__list {
-
   backface-visibility: hidden;
   display: -ms-flexbox;
   display: flex;
@@ -55,13 +54,12 @@
   list-style-type: none !important;
   margin: 0;
   position: relative;
-  margin:0 auto;
-
-
+  margin: 0 auto;
 }
 .splide__slide img {
   vertical-align: bottom;
-   width: 100%;
+  width: 100%;
+  height: 149px;
   height: auto;
   border-radius: 8px;
 }
@@ -142,7 +140,7 @@
   -ms-flex-align: center;
   align-items: center;
   background: transparent;
-  border: 0;
+  border: 2px solid black;
   border-radius: 50%;
   cursor: pointer;
   display: -ms-flexbox;
@@ -159,9 +157,15 @@
   z-index: 1;
 }
 .splide__arrow svg {
-  fill: transparent;
+  fill: 0C0C0C;
   height: 1.2em;
   width: 1.2em;
+}
+.banner_arrows {
+  fill: #c1c1c1;
+}
+.banner_arrow {
+  border: 2px solid #c1c1c1;
 }
 .splide__arrow:hover:not(:disabled) {
   opacity: 0.9;
