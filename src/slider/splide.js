@@ -7,7 +7,7 @@ new Splide('#slider1', {
   pagination: false,
   classes: {
     arrows: 'splide__arrows banner_arrows',
-    arrow: 'splide__arrow banner_arrow',
+    arrow: 'splide__arrow banner_arrow', 
   },
   breakpoints: {
     1439: {
