@@ -1,5 +1,5 @@
 let modal = document.getElementById('modal');
-let openModalBtns = document.querySelectorAll('.openModalBtn');
+let openModalBtns = document.querySelectorAll('.openModalImg');
 let closeModalBtn = document.getElementsByClassName('close')[0];
 
 openModalBtns.forEach(function(btn) {
