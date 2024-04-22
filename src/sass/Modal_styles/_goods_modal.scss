@@ -11,8 +11,14 @@
 }
 
 .modal-content {
+  display: flex;
+  flex-direction: column;
+
+
   width: 100%;
-  height: 100%;
+  margin-bottom: 83px;
+  // max-width: 375px;
+  // height: 100%;
   background-color: #fefefe;
   // margin: 10% auto;
   padding: 20px;
@@ -21,10 +27,12 @@
 }
 
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+  color: $primaryBlack;
+  /* h1/20 regular */
+font-family: 'Roboto';
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
 }
 
 .close:hover,
@@ -32,4 +40,8 @@
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+.modal_card_img {
+  width: 267px;
+  margin: 0 auto;
 }
